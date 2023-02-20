@@ -32,6 +32,5 @@ def main():
             with open('last_secret.csv', 'w', encoding='utf-8', newline='') as wlf:
                 writer_2 = ts_functions.csv.DictWriter(wlf, keys)
                 writer_2.writerow(new_secrets[-1])
-        print("\nHUEVITO REY")
         sleep(110)
 main()
